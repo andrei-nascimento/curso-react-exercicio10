@@ -6,14 +6,14 @@ function App() {
   return (
     <div className="App">
       <textarea
-      placeholder="Digite aí"
+      placeholder="Digite e veja o resultado"
       rows={15}
       value={codigo}
       onChange={(e) => setCodigo(e.target.value)}>
       </textarea>
       
       <div className="mirror">
-        <h1>Código</h1>
+        <h1>Código Transformado</h1>
         {codigo.toUpperCase()}
       </div>
     </div >

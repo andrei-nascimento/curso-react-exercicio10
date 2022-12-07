@@ -22,7 +22,8 @@ code {
 }
 
 .App .mirror {
+  margin-bottom: 180px;
   margin-left: 20px;
-  width: 300px;
+  width: 400px;
   overflow-x: hidden;
 }
